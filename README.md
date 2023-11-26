@@ -44,15 +44,6 @@ Follow these instructions to set up and run the Flask Toy Robot Challenge on you
 
 3. You will see the web interface to control the toy robot. Use the provided buttons and controls to move the robot.
 
-### Usage
-Now you will have to position the robot on the table-top using x,y coordinates and position value.
-- **Enter x value**: You are allowed to enter a value between 0 to 4.
-- **Enter y value**: You are allowed to enter a value between 0 to 4.
-- **position**: You will only have four possible positions to choose ['NORTH','SOUTH','EAST','WEST']
-Once the above requirements are satisfied you can place the robot on the table-top by clicking on the button place.
-
-Now the robot is placed on the table-top and you can use the action menu placed at the botom of the table to control your robot.
-
 ## Diploying on local machine with Docker:
 
 Follow these instructions to set up and run the Flask Toy Robot Challenge on your local machine with Docker.
@@ -85,5 +76,14 @@ Follow these instructions to set up and run the Flask Toy Robot Challenge on you
 5. Access the application with the given url:
 
      http://localhost:5000 
+
+### Usage
+Now you will have to position the robot on the table-top using x,y coordinates and position value.
+- **Enter x value**: You are allowed to enter a value between 0 to 4.
+- **Enter y value**: You are allowed to enter a value between 0 to 4.
+- **position**: You will only have four possible positions to choose ['NORTH','SOUTH','EAST','WEST']
+Once the above requirements are satisfied you can place the robot on the table-top by clicking on the button place.
+
+Now the robot is placed on the table-top and you can use the action menu placed at the botom of the table to control your robot.
 
  
