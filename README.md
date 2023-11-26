@@ -53,3 +53,37 @@ Once the above requirements are satisfied you can place the robot on the table-t
 
 Now the robot is placed on the table-top and you can use the action menu placed at the botom of the table to control your robot.
 
+## Diploying on local machine with Docker:
+
+Follow these instructions to set up and run the Flask Toy Robot Challenge on your local machine with Docker.
+
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/harshahadu/harsha_robot.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd harsha_robot
+    ```
+
+3. Build a docker image with Dockerfile:
+
+    ```bash
+    docker build --tag harsha_robot .
+    ```
+4. Run the image locally in a Docker container:
+
+    ```bash
+    docker run --detach --publish 5000:50505 harsha_robot
+    ```
+5. Access the application with the given url:
+
+     http://localhost:5000 
+
+ 
