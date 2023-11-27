@@ -11,6 +11,7 @@ Follow these instructions to set up and run the Flask Toy Robot Challenge on you
 - Python 3.x
 - Flask
 - Waitress
+- pytest
 
 ### Installation
 
@@ -89,7 +90,7 @@ Once the above requirements are satisfied you can place the robot on the table-t
 Now the robot is placed on the table-top and you can use the action menu placed at the botom of the table to control your robot.
 
 
-## Diploying on Azure Devops using Azure Pipeline:
+## Diploying on Azure using Azure Pipeline:
 
 
 ![Azure DevOps](images/AzureDevops.jpg)

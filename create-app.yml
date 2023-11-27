@@ -1,0 +1,20 @@
+
+---
+
+- name: create, launch and configure our environment
+  hosts: localhost
+  connection: local
+  gather_facts: true
+
+
+- name: Create a linux web app with python
+  azure_rm_webapp:
+    resource_group: myResourceGroup
+    name: harshatoyrobot
+    plan:
+      resource_group: web-app-harsha_rg
+      name: toyrobotplan
+  
+    frameworks:
+      - name: "python"
+        version: "3.11"
