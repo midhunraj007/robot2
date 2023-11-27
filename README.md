@@ -92,8 +92,21 @@ Now the robot is placed on the table-top and you can use the action menu placed 
 ## Diploying on Azure Devops using Azure Pipeline:
 
 
-![Azure DevOps](file:///C:/Users/hthan/Downloads/harsha_robot/AzureDevops.jpg)
+![Azure DevOps](images/AzureDevops.jpg)
 
 
 
- 
+The azure-pipeline.yaml contains a continuous integration and deployment (CI/CD) pipeline using Azure DevOps. The pipeline is configured to trigger on changes to the main branch.
+
+
+There are 5 stages defined in the azure-pipeline.yaml to deploy the web application in the Production server.
+
+Stage 1: This stage is to test the app logic, here we set up the Python environment, install the dependencies and run the pytest.
+
+Stage 2: This defines the Build stage, we use docker to build and push the Docker image to Azure Container Registry (toyrobotapp) and Build development environment stage.
+
+Stage 3 : This stage is to build the Infrastructure using Ansible using app-create.yml and therefore, we have to install Ansible and Ansible Azure Collection and run the playbook app-create.yml.
+
+Stage 4: This stage is for the Deployment to Development stage and deploy the Docker image to the Azure Web App (harshatoyrobot).
+Stage 5 : This stage test the Application's Health.
+
