@@ -32,22 +32,24 @@ Follow these instructions to set up and run the Flask Toy Robot Challenge on you
     pip install -r requirements.txt
     ```
 
-### Usage
-
-1. Start toy robot program:
+4. Start toy robot program:
 
     ```bash
     python app.py
     ```
 
-2. Open your web browser and go to [http://localhost:5000].
+5. Open your web browser and go to [http://localhost:5000].
 
-3. You will see the web interface to control the toy robot. Use the provided buttons and controls to move the robot.
+   You will see the web interface to control the toy robot. Use the provided buttons and controls to move the robot.
 
 ## Diploying on local machine with Docker:
 
 Follow these instructions to set up and run the Flask Toy Robot Challenge on your local machine with Docker.
 
+### Prerequisites
+
+- Docker Desktop must be installed
+- Docker must be connected to Docker hub.
 
 ### Installation
 
