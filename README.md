@@ -88,4 +88,12 @@ Once the above requirements are satisfied you can place the robot on the table-t
 
 Now the robot is placed on the table-top and you can use the action menu placed at the botom of the table to control your robot.
 
+
+## Diploying on Azure Devops using Azure Pipeline:
+
+
+![Azure DevOps](file:///C:/Users/hthan/Downloads/harsha_robot/AzureDevops.jpg)
+
+
+
  
